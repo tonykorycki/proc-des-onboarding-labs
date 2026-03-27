@@ -1,0 +1,24 @@
+# CMake / C++ build outputs
+build/
+cmake-build-*/
+**/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.ninja
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+.vscode/
+.idea/
+
+.venv/
+.venv-wsl/
