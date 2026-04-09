@@ -1,4 +1,5 @@
 #include <catch2/catch_test_macros.hpp>
+#include <catch2/generators/catch_generators_all.hpp>
 #include <VExercise2.h>
 
 // TEST_CASE("Exercise 2") {

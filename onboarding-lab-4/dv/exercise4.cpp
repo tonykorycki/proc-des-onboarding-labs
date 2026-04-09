@@ -1,4 +1,5 @@
 #include <catch2/catch_test_macros.hpp>
+#include <catch2/generators/catch_generators_all.hpp>  
 #include <VExercise4.h>
 
 TEST_CASE("Exercise 4") {
@@ -44,7 +45,8 @@ TEST_CASE("Exercise 4: cs=1") {
         REQUIRE(model.out == g);
 
         model.sel = 3; model.eval();
-        REQUIRE(model.out == a & (b | g));
+        uint8_t expected = (a & (b | g));
+        REQUIRE(model.out == expected);
     }
 
 }
